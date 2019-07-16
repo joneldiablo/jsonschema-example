@@ -1,0 +1,51 @@
+{
+  "title": "Formulario de registro",
+  "type": "object",
+  "properties": {
+    "user": {
+      "type": "object",
+      "title": "datos de usuario",
+      "required": [
+        "firstname"
+      ],
+      "properties": {
+        "firstname": {
+          "type": "string",
+          "title": "Nombre",
+          "default": ""
+        },
+        "lastname": {
+          "type": "string",
+          "title": "Apellidos",
+          "default": ""
+        }
+      }
+    },
+    "address": {
+      "type": "object",
+      "title": "Dirección",
+      "properties": {
+        "zipcode": {
+          "type": "string",
+          "title": "Código postal",
+          "default": ""
+        },
+        "street": {
+          "type": "string",
+          "title": "Calle",
+          "default": ""
+        },
+        "city": {
+          "type": "string",
+          "title": "Ciudad",
+          "default": ""
+        },
+        "country": {
+          "type": "string",
+          "title": "Pais",
+          "default": ""
+        }
+      }
+    }
+  }
+}

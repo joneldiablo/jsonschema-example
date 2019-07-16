@@ -1,0 +1,42 @@
+{
+  "user": {
+    "firstname": {
+      "ui:options": {
+        "label": false
+      },
+      "ui:placeholder": "Nombre*"
+    },
+    "lastname": {
+      "ui:options": {
+        "label": false
+      },
+      "ui:placeholder": "Apellidos"
+    }
+  },
+  "address": {
+    "zipcode": {
+      "ui:options": {
+        "label": false
+      },
+      "ui:placeholder": "Código postal"
+    },
+    "street": {
+      "ui:options": {
+        "label": false
+      },
+      "ui:placeholder": "Calle"
+    },
+    "city": {
+      "ui:options": {
+        "label": false
+      },
+      "ui:placeholder": "Ciudad"
+    },
+    "country": {
+      "ui:options": {
+        "label": false
+      },
+      "ui:placeholder": "Pais"
+    }
+  }
+}
