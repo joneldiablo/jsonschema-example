@@ -1,20 +1,5 @@
 {
   "user": {
-    "username": {
-      "ui:options": {
-        "label": false
-      },
-      "ui:placeholder": "Correo electrónico"
-    },
-    "password": {
-      "ui:options": {
-        "label": false
-      },
-      "ui:placeholder": "Contraseña",
-      "ui:widget": "password"
-    }
-  },
-  "profile": {
     "firstname": {
       "ui:options": {
         "label": false

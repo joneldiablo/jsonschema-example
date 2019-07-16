@@ -4,22 +4,7 @@
   "properties": {
     "user": {
       "type": "object",
-      "title": "Usuario",
-      "properties": {
-        "username": {
-          "type": "string",
-          "title": "Correo elecrónico",
-          "format": "email"
-        },
-        "password": {
-          "type": "string",
-          "title": "Contraseña"
-        }
-      }
-    },
-    "profile": {
-      "type": "object",
-      "title": "Datos de personales",
+      "title": "datos de usuario",
       "required": [
         "firstname"
       ],

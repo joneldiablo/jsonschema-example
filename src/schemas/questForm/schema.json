@@ -1,0 +1,11 @@
+{
+  "title": "Cuestionario previo",
+  "type": "object",
+  "properties": {
+    "whereDoYouLive": {
+      "type": "string",
+      "title": "Dónde vives?",
+      "default": ""
+    }
+  }
+}
